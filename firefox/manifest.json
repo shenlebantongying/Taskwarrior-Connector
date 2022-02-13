@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "TaskWarrior Connector",
+  "version": "0.2",
+  "description": "Save webpage links to taskwarrior",
+  "icons": {
+    "48": "icon.png"
+  },
+  "browser_action":{
+    "default_icon": "icon.png",
+    "default_title": "Taskwarrior",
+    "default_popup": "popup.html",
+    "browser_style": true
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "<all_urls>"
+  ]
+}

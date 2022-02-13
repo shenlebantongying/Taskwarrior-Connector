@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Taskwarrior</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <style>
+        body {
+            padding: 5px;
+
+        }
+
+        .table {
+            display: table;
+        }
+
+        #submit {
+            margin-left: auto;
+
+            margin-right: auto;
+            width: 450px;
+
+        }
+
+        p {
+            display: table-row;
+        }
+
+        label {
+            padding-bottom: 5px;
+            display: table-cell;
+            text-align: right;
+            padding-right: 10px;
+        }
+
+        input {
+            display: table-cell;
+            width: 450px;
+
+        }
+    </style>
+</head>
+<body>
+<div style="width:100%;text-align:right;">
+    <div class="table">
+        <p>
+            <label for="title">title </label>
+            <!-- Remove the hack below to disable autocomplete -->
+            <input autocomplete="off" name="hack" type="text" id="title"><br>
+        </p>
+        <p>
+            <label for="url">url </label>
+            <input  autocomplete="off" name="someUnusualName" type="text" id="url"><br>
+        </p>
+        <p>
+            <label for="tags">tags </label>
+            <input autocomplete="off" name="someUnusualName" type="text" id="tags"><br>
+        </p>
+        <p>
+            <label></label>
+            <button style="text-align:center" id="submit">Add to Taskwarrior!</button>
+        </p>
+    </div>
+</div>
+<script src="popup.js"></script>
+</body>
+</html>
