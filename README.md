@@ -1,5 +1,3 @@
-**NOTICE: This software is in beta quality and still under heavy development.**
-
 # Taskwarrior as a bookmark manager / "read-later app"
 
 Why? After some research, i just realize that every bookmark managers on this planet suck.
